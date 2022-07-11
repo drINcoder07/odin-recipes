@@ -1,0 +1,66 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+* {
+	font: inherit;
+	margin: 0;
+	padding: 0;
+	font-family: "Poppins", sans-serif;
+	text-align: center;
+	line-height: 1.3rem;
+}
+
+/* MAIN TITLE */
+h1 {
+	font-family: "Lobster", cursive;
+	font-size: 2rem;
+	// border: 2px solid black;
+	margin: 10px 0;
+}
+
+/* IMAGE */
+img {
+	height: auto;
+	width: 500px;
+	float: right;
+	border: 2px solid blue;
+	margin-right: 200px;
+}
+
+/* SECTIONS */
+.section-title {
+	font-family: "Lobster", cursive;
+	font-size: 1.5rem;
+	// border: 2px solid gold;
+	margin: 15px 0;
+	padding: 5px 0;
+}
+
+/* INGREDIENTS SECTION */
+
+ul {
+	list-style-type: disc;
+	// border: 2px solid grey;
+	width: 400px;
+	margin: 0 auto;
+}
+
+ul li {
+	text-align: left;
+}
+
+/* INSTRUCTIONS SECTION */
+
+Ol {
+	list-style-type: 1;
+	// border: 2px solid grey;
+	width: 400px;
+	margin: 0 auto;
+}
+
+Ol li {
+	text-align: left;
+}
