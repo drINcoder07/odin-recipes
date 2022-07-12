@@ -10,51 +10,114 @@
   padding: 0;
   font-family: "Poppins", sans-serif;
   text-align: center;
-  line-height: 1.3rem;
+  line-height: 1.69rem;
 }
 
 /* MAIN TITLE */
 h1 {
   font-family: "Lobster", cursive;
-  font-size: 2rem;
-  margin: 10px 0;
+  font-size: 3rem;
+  margin: 40px 0;
 }
 
 /* IMAGE */
 img {
   height: auto;
-  width: 500px;
-  float: right;
-  border: 2px solid blue;
-  margin-right: 200px;
+  width: 400px;
+  margin: 60px 20px 0;
+  padding-bottom: 10px;
+}
+
+/* Supporting Paragraphs */
+p.support-info {
+  max-width: 500px;
+  text-align: left;
+  margin: 0 auto;
+  padding: 10px;
+  line-height: 1.3rem;
+  font-size: 17px;
+  color: rgb(51, 51, 51);
+}
+
+.author {
+  text-transform: uppercase;
+  position: absolute;
+  top: 100px;
+  align-items: center;
+  width: 440px;
+  letter-spacing: 0.093em;
+  margin-top: 10px;
+  font-size: 14px;
+  background: rgba(51, 51, 51, 0.08);
+  font-weight: 500;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 /* SECTIONS */
+section {
+  max-width: 550px;
+  margin: 25px auto;
+}
+
+section {
+  background: #f9f9f9;
+}
+
 .section-title {
   font-family: "Lobster", cursive;
   font-size: 1.5rem;
-  margin: 15px 0;
-  padding: 5px 0;
+  margin: 15px;
+  padding: 1rem 0;
+  border-bottom: 2px solid rgb(226, 221, 204);
+}
+
+li {
+  text-align: left;
+  line-height: inherit;
+  padding-bottom: 0.7rem;
+  color: rgb(51, 51, 51);
+}
+
+ul,
+ol {
+  width: 400px;
+  margin: 0 auto;
 }
 
 /* INGREDIENTS SECTION */
 ul {
   list-style-type: disc;
-  width: 400px;
-  margin: 0 auto;
-}
-
-ul li {
-  text-align: left;
 }
 
 /* INSTRUCTIONS SECTION */
 Ol {
   list-style-type: 1;
-  width: 400px;
-  margin: 0 auto;
 }
 
-Ol li {
-  text-align: left;
+ol li:last-of-type {
+  margin-bottom: 30px;
+}
+
+/*FOOTER*/
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  color: cadetblue;
+}
+
+#resource {
+  width: 500px;
+  margin: 10px auto 20px;
+  background-color: #455a64;
+  padding: 10px;
+}
+#resource p {
+  color: white;
 }/*# sourceMappingURL=style-adobo.css.map */
